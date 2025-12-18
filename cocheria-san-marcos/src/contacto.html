@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Cochería San Marcos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zalando:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <!-- Header/Menú -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Cochería San Marcos</div>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="index.html#salas-velatorias">Salas Velatorias</a></li>
+                <li><a href="index.html#faq">Preguntas Frecuentes</a></li>
+                <li><a href="index.html#acompanamiento">Acompañamiento</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Contacto -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>Formulario de Contacto</h2>
+            <p class="contact-subtitle">Completa el formulario y nos pondremos en contacto contigo a la brevedad</p>
+
+            <div class="contact-wrapper">
+                <!-- Formulario -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="apellido">Apellido *</label>
+                            <input type="text" id="apellido" name="apellido" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="consulta">Consulta *</label>
+                            <textarea id="consulta" name="consulta" rows="6" required></textarea>
+                        </div>
+
+                        <!-- reCAPTCHA -->
+                        <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+
+                        <button type="submit" class="btn-submit">Enviar Consulta</button>
+                    </form>
+                </div>
+
+                <!-- Datos de Contacto -->
+                <div class="contact-info-wrapper">
+                    <div class="contact-info-box">
+                        <h3>Información de Contacto</h3>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Teléfono fijo</strong>
+                                <p><a href="tel:+542634443101">(0263) 444-3101</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <strong>WhatsApp 24hs</strong>
+                                <p><a href="https://wa.me/5492616575794" target="_blank">(0261) 657-5794</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:cocheriasanmarcosok@gmail.com">cocheriasanmarcosok@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <hr class="divider">
+
+                        <h3>Ubicaciones</h3>
+
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Salas velatorias y oficinas</strong>
+                                <p>Sarmiento 1016, Rivadavia, Mendoza</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Oficina de seguros y sepelios</strong>
+                                <p>Lavalle y Mariano Moreno, frente a la plaza departamental.</p>
+                            </div>
+                        </div>
+
+                        <div class="availability">
+                            <p><i class="fas fa-clock"></i> <strong>Atención 24 horas</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Contacto</h3>
+                <div class="footer-contact">
+                    <p><strong>Teléfono fijo:</strong> <a href="tel:+542634443101">(0263) 444-3101</a></p>
+                    <p><strong>WhatsApp 24hs:</strong> <a href="https://wa.me/5492616575794" target="_blank">(0261) 657-5794</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:cocheriasanmarcosok@gmail.com">cocheriasanmarcosok@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Ubicaciones</h3>
+                <div class="footer-locations">
+                    <div class="location">
+                        <p><strong>Salas velatorias y oficinas:</strong></p>
+                        <p>Sarmiento 1016, Rivadavia, Mendoza</p>
+                    </div>
+                    <div class="location">
+                        <p><strong>Oficina de seguros y sepelios:</strong></p>
+                        <p>Lavalle y Mariano Moreno, frente a la plaza departamental.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Cochería San Marcos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón Flotante de Llamada -->
+    <a href="tel:+542634443101" class="floating-call-btn" title="Llamanos 24hs">
+        <div class="floating-call-content">
+            <i class="fas fa-phone"></i>
+            <span>Llamanos<br>24hs</span>
+        </div>
+    </a>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

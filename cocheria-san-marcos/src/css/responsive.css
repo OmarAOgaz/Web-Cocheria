@@ -1,0 +1,69 @@
+/* Responsive styles for Cochería San Marcos website */
+
+/* General styles for mobile devices */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Main slider adjustments */
+.slider {
+    width: 100%;
+    height: auto;
+}
+
+/* Navigation menu */
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Services section */
+.services {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* About us section */
+.about {
+    padding: 20px;
+}
+
+/* Viewing rooms section */
+.viewing-rooms {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FAQ section */
+.faq {
+    padding: 20px;
+}
+
+/* Support section */
+.support {
+    padding: 20px;
+}
+
+/* Contact section */
+.contact {
+    padding: 20px;
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+
+    .services, .viewing-rooms, .faq, .support, .contact {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

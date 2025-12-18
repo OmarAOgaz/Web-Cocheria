@@ -1,0 +1,22 @@
+{
+  "name": "cocheria-san-marcos",
+  "version": "1.0.0",
+  "description": "Official website for Cochería San Marcos, providing services and support for families.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "cocheria",
+    "funeral services",
+    "support",
+    "family"
+  ],
+  "author": "Cochería San Marcos",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
