@@ -585,9 +585,21 @@ footer {
     text-decoration: none;
 }
 
-.floating-call-btn.floating-whatsapp {
+.floating-whatsapp {
     background-color: #25D366;
     box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+}
+
+.floating-phone {
+    background-color: #ff6b6b;
+}
+
+.floating-desktop {
+    display: flex;
+}
+
+.floating-mobile {
+    display: none;
 }
 
 .floating-call-content {
@@ -611,11 +623,16 @@ footer {
 
 .floating-call-btn:hover {
     transform: scale(1.1);
+}
+
+.floating-whatsapp:hover {
+    background-color: #1EBF5E;
     box-shadow: 0 6px 16px rgba(37, 211, 102, 0.6);
 }
 
-.floating-call-btn.floating-whatsapp:hover {
-    background-color: #1EBF5E;
+.floating-phone:hover {
+    background-color: #ff5252;
+    box-shadow: 0 6px 16px rgba(255, 107, 107, 0.6);
 }
 
 .floating-call-btn:active {
@@ -859,6 +876,15 @@ footer {
     footer {
         padding: 15px;
         font-size: 12px;
+    }
+
+    /* Mostrar botón de llamada en móvil */
+    .floating-desktop {
+        display: none;
+    }
+
+    .floating-mobile {
+        display: flex;
     }
 }
 
