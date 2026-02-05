@@ -585,6 +585,11 @@ footer {
     text-decoration: none;
 }
 
+.floating-call-btn.floating-whatsapp {
+    background-color: #25D366;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+}
+
 .floating-call-content {
     display: flex;
     flex-direction: column;
@@ -605,9 +610,12 @@ footer {
 }
 
 .floating-call-btn:hover {
-    background-color: #ff5252;
     transform: scale(1.1);
-    box-shadow: 0 6px 16px rgba(255, 107, 107, 0.6);
+    box-shadow: 0 6px 16px rgba(37, 211, 102, 0.6);
+}
+
+.floating-call-btn.floating-whatsapp:hover {
+    background-color: #1EBF5E;
 }
 
 .floating-call-btn:active {
