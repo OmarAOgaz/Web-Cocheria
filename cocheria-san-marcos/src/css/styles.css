@@ -263,6 +263,11 @@ header {
     margin-bottom: 15px;
 }
 
+.service-icon .material-symbols-outlined {
+    font-size: 48px;
+    font-weight: 400;
+}
+
 .service-card h4 {
     font-family: 'Cormorant', serif;
     font-size: 20px;
