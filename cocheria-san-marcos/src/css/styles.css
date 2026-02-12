@@ -263,6 +263,12 @@ header {
     margin-bottom: 15px;
 }
 
+.service-icon svg {
+    width: 48px;
+    height: 48px;
+    fill: #c69214;
+}
+
 .service-icon .material-symbols-outlined {
     font-size: 48px;
     font-weight: 400;
