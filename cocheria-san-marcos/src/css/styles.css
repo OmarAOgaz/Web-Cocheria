@@ -329,6 +329,107 @@ header {
     margin-bottom: 0;
 }
 
+/* ==================== ACOMPAÑAMIENTO ==================== */
+.acompanamiento-section {
+    background-color: #f5f5f5;
+    padding: 60px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.acompanamiento-container h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #c69214;
+    margin-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.acompanamiento-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.acompanamiento-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.acompanamiento-text ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.acompanamiento-text ul li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    color: #555;
+    font-size: 16px;
+}
+
+.acompanamiento-text ul li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #c69214;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.acompanamiento-download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 2px dashed #c69214;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #c69214;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(198, 146, 20, 0.3);
+}
+
+.download-btn:hover {
+    background-color: #a07810;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(198, 146, 20, 0.4);
+}
+
+.download-btn i {
+    font-size: 20px;
+}
+
+.download-info {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
+
 /* ==================== CONTACTO ==================== */
 .contact-section {
     padding: 60px 20px;
@@ -853,6 +954,37 @@ footer {
     .about-text p {
         font-size: 14px;
         text-align: left;
+    }
+
+    .acompanamiento-section {
+        padding: 30px 20px;
+        max-width: 100%;
+    }
+
+    .acompanamiento-container h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .acompanamiento-content {
+        padding: 25px;
+    }
+
+    .acompanamiento-text p {
+        font-size: 14px;
+    }
+
+    .acompanamiento-text ul li {
+        font-size: 14px;
+    }
+
+    .acompanamiento-download {
+        padding: 20px;
+    }
+
+    .download-btn {
+        padding: 12px 25px;
+        font-size: 14px;
     }
 
     .contact-wrapper {
