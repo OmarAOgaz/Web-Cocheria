@@ -450,6 +450,100 @@ header {
     margin: 0;
 }
 
+/* ==================== FAQ PAGE ==================== */
+.faq-page {
+    max-width: 1000px;
+}
+
+.faq-main-title {
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    color: #202222;
+    margin-bottom: 35px;
+    border-bottom: 3px solid #c69214;
+    padding-bottom: 15px;
+}
+
+.faq-category {
+    margin-bottom: 40px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.faq-category h2 {
+    font-size: 28px;
+    color: #c69214;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0;
+}
+
+.faq-item {
+    background-color: #fff;
+    border-left: 4px solid #c69214;
+    border-radius: 6px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #202222;
+}
+
+.faq-item p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.faq-item p:last-child {
+    margin-bottom: 0;
+}
+
+.faq-item ul {
+    margin: 12px 0 0;
+    padding-left: 20px;
+}
+
+.faq-item li {
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.faq-back-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.faq-back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #202222;
+    color: #c69214;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: 1px solid #c69214;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.faq-back-btn:hover {
+    background-color: #c69214;
+    color: #202222;
+}
+
 /* ==================== CONTACTO ==================== */
 .contact-section {
     padding: 60px 20px;
